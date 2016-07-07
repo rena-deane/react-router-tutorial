@@ -8,6 +8,7 @@ export default React.createClass({
     	<div>
     		<h1>Ghetto hub issues</h1>
     		<ul role="nav">
+    			<li><NavLink to='/' onlyActiveOnIndex={true}>Kainga</NavLink></li>
     			<li><NavLink to='/about'>About</NavLink></li>
     			<li><NavLink to='/repos'>Repos</NavLink></li>
     		</ul>
